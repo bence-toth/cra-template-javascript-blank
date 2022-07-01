@@ -1,8 +1,25 @@
-# cra-template
+# cra-template-javascript-blank
 
-This is the official base template for [Create React App](https://github.com/facebook/create-react-app).
+This is a JavaScript template for [Create React App](https://github.com/facebook/create-react-app) which is entirely blank.
 
-If you don't specify a template (for example, `--template typescript`), this template will be used by default.
+No spinning logo, no unnecessary boilerplate code.
+
+In addition to [the official JavaScript template](https://github.com/facebook/create-react-app/tree/main/packages/cra-template), the following dependencies are included by default:
+
+- [classnames](https://www.npmjs.com/package/classnames)
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+
+To use this template, add `--template javascript-blank` when creating a new app.
+
+For example:
+
+```sh
+npx create-react-app my-app --template javascript-blank
+
+# or
+
+yarn create react-app my-app --template javascript-blank
+```
 
 For more information, please refer to:
 
