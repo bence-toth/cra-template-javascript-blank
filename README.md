@@ -9,6 +9,7 @@ In addition to [the official JavaScript template](https://github.com/facebook/cr
 - [classnames](https://www.npmjs.com/package/classnames)
 - [prop-types](https://www.npmjs.com/package/prop-types)
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+- [stylelint](https://www.npmjs.com/package/stylelint)
 
 Furthermore, there are the following additions:
 
