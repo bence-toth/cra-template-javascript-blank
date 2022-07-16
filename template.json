@@ -10,6 +10,8 @@
       "@testing-library/jest-dom": "^5.14.1",
       "@testing-library/react": "^13.0.0",
       "@testing-library/user-event": "^13.2.1",
+      "eslint-plugin-jsx-a11y": "^6.6.0",
+      "eslint-plugin-sonarjs": "^0.13.0",
       "prettier": "^2.7.1",
       "stylelint": "^14.9.1",
       "stylelint-config-prettier": "^9.0.3",
@@ -17,7 +19,12 @@
       "stylelint-prettier": "^2.0.0"
     },
     "eslintConfig": {
-      "extends": ["react-app", "react-app/jest"]
+      "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:jsx-a11y/recommended",
+        "plugin:sonarjs/recommended"
+      ]
     },
     "scripts": {
       "lint": "npm run lint-js; npm run lint-css",
