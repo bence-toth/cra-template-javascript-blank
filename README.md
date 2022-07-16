@@ -11,7 +11,7 @@ In addition to [the official JavaScript template](https://github.com/facebook/cr
 
 Furthermore, there are the following additions:
 
-- HTTPS is enabled by default in development and test mode
+- HTTPS is enabled in development and test mode
 
 To use this template, add `--template javascript-blank` when creating a new app.
 
