@@ -7,6 +7,7 @@ No spinning logo, no unnecessary boilerplate code.
 In addition to [the official JavaScript template](https://github.com/facebook/create-react-app/tree/main/packages/cra-template), the following dependencies are included by default:
 
 - [classnames](https://www.npmjs.com/package/classnames)
+- [prop-types](https://www.npmjs.com/package/prop-types)
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 
 Furthermore, there are the following additions:
